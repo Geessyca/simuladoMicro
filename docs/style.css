@@ -1,0 +1,115 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+
+.conteiner{
+    background-image:url('./home.jpeg');
+    min-height:100%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+
+.border{
+    background-color:rgb(0, 255, 170);
+    color:#fff;
+    padding:20px;
+    font-size:27px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.border:hover{
+    color: black;
+}
+
+@keyframes example {
+  0%   {background-color:rgb(0, 255, 170); left:0px; top:0px;}
+  25%  {background-color:rgb(0, 162, 255); left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:rgb(34, 0, 128); left:0px; top:200px;}
+  100% {background-color:rgb(0, 255, 170); left:0px; top:0px;}
+}
+
+.text:hover{
+    opacity: 0.9;
+}
+
+.section{
+    text-align:center;
+    padding:50px 80px;
+    background-color:#f4f4f4;
+    color:#666;
+}
+
+p{
+    margin: 5% 10% 0 10% ;
+    text-align: justify;
+}
+
+.conteiner-infinito{
+    padding-top: 20%;
+    background-image:url('./home.jpeg');
+    height:100%;
+    position:relative;
+    opacity:0.70;
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.text-infinito{
+    text-align:center;
+    padding:50px 80px;
+    background-color:#00000056;
+    background-size: contain;
+    color:#fff;
+}
+
+.text-infinito:hover{
+    background-color: #f4f4f4;
+    color: black;
+}
+
+footer{
+    padding:10px;
+    background-color:transparent;
+    background-size: contain;
+    color:rgb(0, 0, 0);
+}
+
+.creditos{
+    text-align: center;
+    color: rgb(155, 153, 153);
+    font-size: 10px;
+}
+
+a{
+    color: rgb(155, 153, 153);
+}
+
+a:hover{
+    color: rgb(255, 44, 79);
+}
